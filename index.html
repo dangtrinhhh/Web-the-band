@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>dangtrinhhh's website</title>
+    <link rel="icon" href="./assets/img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Group</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="fas fa-sort-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+                <!-- End nav -->
+                <!-- Begin search button -->
+                <div class="search-button">
+                    <a href="">
+                        <i class="search-icon fas fa-search"></i>
+                    </a>
+                </div>
+                <!-- End search button -->
+            </ul>
+        </div>
+
+        <div id="slider">
+            <img class="slides" src="./assets/img/itzy1.jpg" width="100%">
+            <img class="slides" src="./assets/img/itzy2.jpg" width="100%">
+            <img class="slides" src="./assets/img/itzy3.png" width="100%">
+            <script>
+                w3.slideshow(".slides", 1500);
+            </script>
+            <div class="text-content">
+                <h2 class="text-heading">
+                    Bangkok
+                </h2>
+                <br>
+                <div class="text-description">
+                    <b>Thank you, Bangkok - A night we won't forget.</b>
+                </div>
+                <h2 class="text-heading">
+                    Los Angeles
+                </h2>
+                <br>
+                <div class="text-description">
+                    <b>We had the best time playing at Venice Beach!</b>
+                </div>
+                <h2 class="text-heading">
+                    New York
+                </h2>
+                <br>
+                <div class="text-description">
+                    <b>The atmosphere in New York is lorem ipsum.</b>
+                </div>
+                <script>
+                    w3.slideshow(".text-heading", 1500);
+                </script>
+                <script>
+                    w3.slideshow(".text-description", 1500);
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <!-- Begin: About section -->
+        <div id="band" class="content-section">
+            <h2 class="section-heading">THE BAND</h2>
+            <p class="section-sub-heading">We love music</p>
+            <p class="about-text">
+                We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="member-list">
+                <div class="member-item">
+                    <p class="member-name">Yuna</p>
+                    <img src="./assets/img/yuna.png" alt="" class="member-img" style="width:60%">
+                </div>
+                <div class="member-item">
+                    <p class="member-name">Ryujin</p>
+                    <img src="./assets/img/ryujin.png" alt="" class="member-img" style="width:60%">
+                </div>
+                <div class="member-item">
+                    <p class="member-name">Yeji</p>
+                    <img src="./assets/img/yeji.png" alt="" class="member-img" style="width:60%">
+                </div>
+            </div>
+            <div class="member-list">
+                <div class="member-item member-item2">
+                    <p class="member-name">Lia</p>
+                    <img src="./assets/img/lia.png" alt="" class="member-img" style="width:40%">
+                </div>
+                <div class="member-item member-item2">
+                    <p class="member-name">Chaeryeong</p>
+                    <img src="./assets/img/chaeryeong.png" alt="" class="member-img" style="width:40%">
+                </div>
+            </div>
+        </div>
+        <!-- End: About section -->
+        <!-- Begin: Tour section -->
+        <div id="tour" class="tour-section">
+            <div class="content-section">
+                <h2 class="section-heading text-white">TOUR DATES</h2>
+                <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                <!-- Ticket -->
+                <ul class="ticket-list">
+                    <li>September <span class="sold-out">Sold out</span></li>
+                    <li>October <span class="sold-out">Sold out</span></li>
+                    <li>November <span class="quantities">3</span> </li>
+                </ul>
+                <!-- Places -->
+                <div class="place-list">
+                    <div class="place-item">
+                        <img src="./assets/img/newyork.jpg" alt="" class="place-image" style="width:100%">
+                        <div class="place-content">
+                            <h3 class="place-heading">New York</h3>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="place-buy-button js-buy-ticket">Buy tickets</button>
+                        </div>
+                    </div>
+                    <div class="place-item">
+                        <img src="./assets/img/paris.jpg" alt="" class="place-image middle" style="width:100%">
+                        <div class="place-content">
+                            <h3 class="place-heading">Paris</h3>
+                            <p class="place-time">Sat 28 Nov 2016</p>
+                            <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="place-buy-button js-buy-ticket">Buy tickets</button>
+                        </div>
+                    </div>
+                    <div class="place-item">
+                        <img src="./assets/img/sanfran.jpg" alt="" class="place-image" style="width:100%">
+                        <div class="place-content">
+                            <h3 class="place-heading">San Francisco</h3>
+                            <p class="place-time">Sun 29 Nov 2016</p>
+                            <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="place-buy-button js-buy-ticket">Buy tickets</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- End: Tour section -->
+        <!-- Begin: Contact section -->
+        <div id="contact" class="content-section">
+            <h2 class="section-heading">CONTACT</h2>
+            <p class="section-sub-heading">Fan? Drop a note!</p>
+
+            <div class="row">
+                <div class="col  contact-info">
+                    <pre><i class="fas fa-map-marker-alt contact-icon"></i>Chicago, US</pre>
+                    <pre><i class="fas fa-phone-alt contact-icon"></i>Phone: 0938 475 370</pre>
+                    <pre><i class="fas fa-envelope contact-icon"></i>Email: dangtrinhdo2910@gmail.com</pre>
+                </div>
+                <div class="col  send-message">
+                    <form action="">
+                        <div class="form-contact">
+                            <div class="col send-message">
+                                <input type="text" placeholder="Name" class="form-control">
+                            </div>
+                            <div class="col send-message">
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Message" class="form-control">
+                        </div>
+                        <input type="submit" value="SEND" class="send-button">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End: Contact section -->
+        <div class="map-section">
+            <img src="./assets/img/map.jpg" alt="map" class="bg-img map-img" width="100%" height="100%">
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com/dangtrinhhh/" target="__blank" title="Chuyển đến trang Facebook" rel="follow,index"><i class="ti-facebook"></i></a>
+            <a href="https://www.instagram.com/dangtrinhhh/" target="__blank" title="Chuyển đến trang Instagram" rel="follow,index"><i class="ti-instagram"></i></a>
+            <a href="mailto:dangtrinhdo2910@gmail.com" target="__blank" title="Chuyển đến Mail" rel="follow,index"><i class="ti-email"></i></a>
+            <a href="https://twitter.com/dangtrinhhh?s=09" target="__blank" title="Chuyển đến trang Twitter" rel="follow,index"><i class="ti-twitter"></i-alt"></i></a>
+        </div>
+        <p class="copyright">Copyright © 2021, Powered by dangtrinhhh.</p>
+    </div>
+    <!-- <img src="https://i.ytimg.com/vi/6IE3IIX0u7s/maxresdefault.jpg" alt="itzy-concert" class="bg-img" width="100%" height="80%"> -->
+    <!-- <center> <img src="https://i.pinimg.com/originals/44/7f/14/447f141de7c13d08a72581bfb41c7fdd.jpg" alt="itzy-concert" class="bg-img"> -->
+    <!-- </center> -->
+    </div>
+    <div id="modal" class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="modal-heading-icon ti-bag"></i> Tickets
+            </header>
+
+            <div class="modal-body">
+                <!-- For: only use with id -->
+                <label for="ticket-quantity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, 15$ per person
+                </label>
+                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+
+                <label for="ticket-email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email...">
+
+                <button id="buy-tickets">
+                    Pay <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">
+                    Need <a href="">help?</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const closeBtn = document.querySelector('.modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modal = document.querySelector('.js-modal')
+
+        function showBuyTickets() {
+            modal.classList.add("open")
+            modal.classList.add("animated")
+            modal.classList.add("FadeIn")
+
+        }
+
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+
+        function hideBuyTickets() {
+            modal.classList.remove("open")
+        }
+
+        closeBtn.addEventListener('click', hideBuyTickets)
+
+        modal.addEventListener('click', hideBuyTickets)
+
+        modalContainer.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+    </script>
+</body>
+
+</html>
